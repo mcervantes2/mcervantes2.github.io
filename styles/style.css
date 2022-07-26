@@ -16,8 +16,9 @@ body {
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-image: url(https://images.fineartamerica.com/images-medium-large-5/pink-and-blue-clouds-robert-vanderwal.jpg);
     width: fit-content;
+    position: relative;
+    min-height: 100vh;
 
 }
 
@@ -30,6 +31,13 @@ ul.socials {
     
 
 
+}
+
+h1.work-heading{
+    position: absolute;
+    top: 19.3%;
+    left: 1%;
+    border-bottom: 3px solid black;
 }
 
 div {
@@ -95,4 +103,13 @@ img.selfie {
 div.About-me2 {
     margin: 5px;
 
+}
+
+img.background {
+    position:  absolute;
+    bottom:-2%;
+    width:100%;
+    min-height: 120%;
+    margin: 0;
+    z-index: -1;
 }
