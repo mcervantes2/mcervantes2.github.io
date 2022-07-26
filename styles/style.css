@@ -35,9 +35,12 @@ ul.socials {
 
 h1.work-heading{
     position: absolute;
-    top: 19.3%;
+    top: 19%;
     left: 1%;
     border-bottom: 3px solid black;
+    font-family: 'Satisfy';
+
+    
 }
 
 div {
